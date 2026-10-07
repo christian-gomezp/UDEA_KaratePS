@@ -7,7 +7,7 @@ Feature: Login to Parabank
 
   Scenario: Customer Login
     Given path 'login'
-    And path 'john123' //userName
+    And path 'john' //userName
     And path 'demo' //password
     When method GET
     Then status 200
@@ -18,7 +18,7 @@ Feature: Login to Parabank
        "firstName": '#string',
        "lastName": '#string',
        "address": {
-            "street": '#string',
+            "street_": '#string',
             "city": '#string',
             "state": '#string',
             "zipCode": '#string'
