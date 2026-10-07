@@ -7,7 +7,7 @@ Feature: Login to Parabank
 
   Scenario: Customer Login
     Given path 'login'
-    And path 'john' //userName
+    And path 'john123' //userName
     And path 'demo' //password
     When method GET
     Then status 200
