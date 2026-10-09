@@ -18,7 +18,7 @@ Feature: Login to Parabank
        "firstName": '#string',
        "lastName": '#string',
        "address": {
-            "street_": '#string',
+            "street": '#string',
             "city": '#string',
             "state": '#string',
             "zipCode": '#string'
